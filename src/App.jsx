@@ -10,12 +10,12 @@ function App() {
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
-        <div className='app'>
+        <div className="app">
           <main className="content">
+          
             <Topbar />
           </main>
           
-          <h1>Dashboard</h1>
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>
