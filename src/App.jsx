@@ -13,6 +13,8 @@ import Line from "./scenes/line"
 import Pie from "./scenes/pie"
 import FAQ from "./scenes/faq"
 import Geography from "./scenes/geography"
+
+
 function App() {
   const [theme, colorMode] = useMode();
 
@@ -22,7 +24,7 @@ function App() {
         <CssBaseline />
         <div className="app">
           <main className="content">
-          
+            <h1>DashBoard</h1>
             <Topbar />
           </main>
           
