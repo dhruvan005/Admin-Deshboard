@@ -5,9 +5,8 @@ import { tokens } from '../../theme';
 import AdminPanelSettingsOutlinedIcon from "@mui/icons-material/AdminPanelSettingsOutlined";
 import LockOpenOutlinedIcon from "@mui/icons-material/LockOpenOutlined";
 import SecurityOutlinedIcon from "@mui/icons-material/SecurityOutlined";
-import Header from "../../components/Header";
 import { mockDataTeam } from "../../data/mockData";
-
+import Header from '../../components/header';
 
 const Team = () => {
 
@@ -91,6 +90,7 @@ const Team = () => {
           },
           "& .MuiDataGrid-cell": {
             
+            fontSize:"17px"
           },
           "& .name-column--cell": {
             color: colors.greenAccent[300],
@@ -105,6 +105,7 @@ const Team = () => {
           "& .MuiDataGrid-footerContainer": {
             borderTop: "none",
             backgroundColor: colors.blueAccent[700],
+           
           },
           "& .MuiCheckbox-root": {
             color: `${colors.greenAccent[200]} !important`,
