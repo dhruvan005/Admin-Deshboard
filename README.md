@@ -11,6 +11,7 @@ This project is an Admin Dashboard that provides an interface to manage and moni
   - React-Router for routing
   - FullCalendar for calendar
   - Formik for form handling
+  - Used Dammy data for the project
 
   ## Installation
 
