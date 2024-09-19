@@ -1,8 +1,21 @@
-# React + Vite
+# Admin Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is an Admin Dashboard that provides an interface to manage and monitor various administrative tasks. It is built using modern web technologies and offers a clean user experience.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+  - React.js
+  - Material-UI for UI components
+  - nivo for data visualization
+  - React-Router for routing
+  - FullCalendar for calendar
+  - Formik for form handling
+
+  ## Installation
+
+To run this project locally, follow these steps:
+
+ Clone the repository:
+   ```bash
+   git clone https://github.com/dhruvan12/Admin-Deshboard.git

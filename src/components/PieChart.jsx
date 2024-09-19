@@ -68,7 +68,7 @@ const PieChart = () => {
         modifiers: [
             [
                 'darker',
-                '1.4'
+                '50'
             ]
         ]
     }}
