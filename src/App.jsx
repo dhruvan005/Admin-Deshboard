@@ -15,7 +15,7 @@ import Geography from "./scenes/Geography/Geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
 import Calendar from "./scenes/calendar/Calendar";
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
@@ -42,6 +42,7 @@ function App() {
               <Route path="/geography" element={<Geography />} />
             </Routes>
           </main>
+          <Analytics/>
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>

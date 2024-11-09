@@ -48,7 +48,7 @@ const Sidebar = () => {
       sx={{
         "& .pro-sidebar-inner": {
           background: `${colors.primary[400]} !important`,
-          height: "140%",
+          height: "135%",
         },
         "& .pro-icon-wrapper": {
           backgroundColor: "transparent !important",
